@@ -1,0 +1,23 @@
+{
+    "id": "academic-docker",
+    "version": "1.0.0",
+    "name": "AcademicDocker template",
+    "description": "A template with R, Latex and Stata for scientific publishing",
+    "documentationURL": "https://github.com/rferrali/devcontainer-templates/tree/main/src/academic-docker",
+    "licenseURL": "https://github.com/rferrali/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Image version (sets the R version):",
+            "proposals": [
+                "latest",
+                "v4.5.1",
+                "v4.4.2"
+            ],
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
