@@ -7,7 +7,7 @@ A template with R, Latex and Stata for scientific publishing
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Image version (sets the R version): | string | latest |
+| imageVariant | Image version (sets the R version; we recommend pinning the version): | string | latest |
 
 
 
