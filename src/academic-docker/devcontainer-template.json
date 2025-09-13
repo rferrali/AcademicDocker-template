@@ -1,6 +1,6 @@
 {
     "id": "academic-docker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "AcademicDocker template",
     "description": "A template with R, Latex and Stata for scientific publishing",
     "documentationURL": "https://github.com/rferrali/devcontainer-templates/tree/main/src/academic-docker",
@@ -8,11 +8,15 @@
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "Image version (sets the R version):",
+            "description": "Image version (sets the R version; we recommend pinning the version):",
             "proposals": [
                 "latest",
-                "v4.5.1",
-                "v4.4.2"
+                "4.5.1",
+                "4.5.0",
+                "4.4.3",
+                "4.4.2",
+                "4.4.1",
+                "4.4.0"
             ],
             "default": "latest"
         }
